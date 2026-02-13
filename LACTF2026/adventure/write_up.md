@@ -151,7 +151,7 @@ void print_inventory(void) {
     puts("");
 }
 ```
-- `print_inventory` have some `printf` (`%-6s` ~ `last_item`)
+- `print_inventory` have `printf` (`%-6s` ~ `last_item`)
 ```c
 void grab_item(void) {
     if (board[player_y][player_x] == 0) {
