@@ -190,7 +190,6 @@ void get_student_info() {
 - `get_student_info` print info of student, that has same `uid`,  
 #### exploit
 - I use the chunk in tcache bin to leak heap base.
-
     +`add_student` and input something, then I remove student (that move chunk into tcache bin).
     +`add_student` to get chunk from tcache. I do not input anything.
     +`get_student_info` to leak heap base.
