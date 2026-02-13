@@ -16,7 +16,6 @@ IBT:        Enabled
 Stripped:   No
 pwndbg> 
 ```
-- All of protection have been enabled.
 ```c
 int main() {
     setvbuf(stdin, NULL, _IONBF, 0);
