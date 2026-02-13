@@ -16,7 +16,6 @@ IBT:        Enabled
 Stripped:   No
 pwndbg> 
 ```
-- `No PIE`, maybe we can ROP.
 ```c
 int main(void) {
     char input[INPUT_SIZE];
